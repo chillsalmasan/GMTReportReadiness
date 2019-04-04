@@ -1,0 +1,7 @@
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\obj\Debug\GMTReportReadiness.csprojAssemblyReference.cache
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\obj\Debug\GMTReportReadiness.csproj.CoreCompileInputs.cache
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\bin\Debug\GMTReportReadiness.exe.config
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\bin\Debug\GMTReportReadiness.exe
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\bin\Debug\GMTReportReadiness.pdb
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\obj\Debug\GMTReportReadiness.exe
+D:\NOC Websites\GMTReportReadiness\GMTReportReadiness\obj\Debug\GMTReportReadiness.pdb
