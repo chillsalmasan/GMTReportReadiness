@@ -68,7 +68,7 @@ namespace GMTReportReadiness
                 {
                     sendMail("GMT Predefined is not yet ready", "GMT Predefined report is not yet ready.");
                 }
-
+                /*
                 else // the predefined reports are ready
                 {
 
@@ -81,6 +81,7 @@ namespace GMTReportReadiness
                         sendMail("GMT Predefined is now ready", "GMT Predefined report is now ready.");
                     }
                 }
+                */
 
                 double GMTOlapSLAdiff = utc.Subtract(GMTolapSLA).TotalMinutes;
                 TimeSpan GMTolapDiff = GMTolap.Subtract(GMTolapSLA);
@@ -90,6 +91,7 @@ namespace GMTReportReadiness
                 {
                     sendMail("GMT OLAP is not yet ready", "GMT OLAP report is not yet ready.");
                 }
+                /*
                 else
                 {
                     if (GMTolapDiff.TotalMinutes > 0)
@@ -101,6 +103,7 @@ namespace GMTReportReadiness
                         sendMail("GMT OLAP is now ready", "GMT OLAP report is now ready.");
                     }
                 }
+                */
 
             }
             myReader.Close();
@@ -146,6 +149,7 @@ namespace GMTReportReadiness
                         Console.WriteLine("GroupM_DE_AllAccount_GP_GMT Not Ready");
                         sendMail("GroupM_DE_AllAccount_GP_GMT Not Ready", "GroupM DE AllAccount GP GMT is not yet ready.");
                     }
+                    /*
                     else
                     {
                         if (GMTdatafeedDiff.TotalMinutes > 0)
@@ -158,6 +162,7 @@ namespace GMTReportReadiness
                             sendMail("GroupM_DE_AllAccount_GP_GMT is now Ready", "GroupM DE AllAccount GP GMT is now ready.");
                         }
                     }
+                    */
                 }
                 else if (myReader["FeedName"].ToString() == "GroupM_DE_AllAccount_WinningEvent_GMT")
                 {
@@ -187,6 +192,7 @@ namespace GMTReportReadiness
                     {
                         sendMail("GroupM_DE_AllAccount_WinningEvent_GMT is not yet ready", "GroupM_DE_AllAccount_WinningEvent_GMT is not yet ready.");
                     }
+                    /*
                     else
                     {
 
@@ -200,6 +206,7 @@ namespace GMTReportReadiness
                         }
 
                     }
+                    */
                 }
                 else if (myReader["FeedName"].ToString() == "1_Xaxis DE - Daily feed")
                 {
@@ -228,6 +235,7 @@ namespace GMTReportReadiness
                     {
                         sendMail("Xaxis DE - Daily feed is not yet ready", "Xaxis DE - Daily feed is not yet ready.");
                     }
+                    /*
                     else
                     {
 
@@ -241,6 +249,7 @@ namespace GMTReportReadiness
                             sendMail("Xaxis DE - Daily feed is now ready", "Xaxis DE - Daily feed is now ready.");
                         }
                     }
+                    */
                 }
             }
             myReader.Close();
